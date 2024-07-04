@@ -7,6 +7,6 @@ import (
 #AppOne: {
 	ComponentOne: componentOne.#ComponentOne & {
 		maxNetwork!: >=20 & <=80
-		cpu:         float & >=1 & <=1.5
+		cpu!:         float & >=1 & <=1.5
 	}
 }
