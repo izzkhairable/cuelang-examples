@@ -4,9 +4,10 @@ import (
 	"github.com/app-one:appOne"
 )
 
-SysIntOne: {appOne.AppOne & {
-	ComponentOne: {
-		maxNetwork: 100
-		cpu:        3.0
+SysIntOne:
+	applicationOne: appOne.#AppOne & {
+		ComponentOne: {
+			maxNetwork: 60
+			cpu:        1.5
+		}
 	}
-}}
